@@ -14,4 +14,12 @@ pnpm dev
 bun dev
 ```
 
+## Instalar o Botstrab
+
+npm i bootstrap@5.3.3
+
+## Instalar o Firebase
+
+npm install firebase
+
 

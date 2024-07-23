@@ -1,8 +1,8 @@
-import BootstrapJs from "@/components/ui/BotstrapJs";
-import NavBar from "@/components/ui/NavBar";
+import BootstrapJs from "@/components/BotstrapJs";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "bootstrap/dist/css/bootstrap.min.css";
+import Navbar from "@/components/NavBar";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -20,7 +20,7 @@ export default function RootLayout({
     <html lang="en">
       <body className=" --bs-body-color">
         <main className="container">
-          <NavBar />
+          <Navbar />
           {children}
         </main>
       </body>
