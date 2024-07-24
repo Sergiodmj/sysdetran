@@ -1,7 +1,7 @@
 export default function inputtext(props: any) {
   return (
     <div className="mb-3">
-      <label className="form-label">{props.nome}</label>
+      <label className="form-label">{props.label}</label>
       <div className="input-group">
         <input
           className="form-control"
@@ -27,7 +27,7 @@ export default function inputtext(props: any) {
           <option value="VISTORIA" />
         </datalist>
       </div>
-      <div className="form-text" id="basic-addon4">
+      <div className="form-text">
         {props.descrition}
       </div>
     </div>
