@@ -22,4 +22,14 @@ npm i bootstrap@5.3.3
 
 npm install firebase
 
+## Instalar o firebase tool
+
+ npm install -g firebase-tools
+
+## Iniciar o firebase
+ firebase init
+
+## Fazer o deploy
+ firebase deploy
+
 
