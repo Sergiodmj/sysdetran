@@ -68,7 +68,7 @@ export default function Form() {
           <Inputtext
             name="processo"
             label="Processo"
-            type="number"
+            type="text"
             autoComplete="off"
             value={numero}
             onChange={(e: { target: { value: SetStateAction<string> } }) =>

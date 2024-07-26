@@ -18,18 +18,11 @@ bun dev
 
 npm i bootstrap@5.3.3
 
-## Instalar o Firebase
+## Instalar o Prisma
 
-npm install firebase
+npm install prisma --save-dev
 
-## Instalar o firebase tool
+## Nova migration
 
- npm install -g firebase-tools
-
-## Iniciar o firebase
- firebase init
-
-## Fazer o deploy
- firebase deploy
-
+prisma migrate dev
 
