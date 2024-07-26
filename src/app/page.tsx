@@ -5,8 +5,10 @@ import NFinalizados from "./pages/nFinalizado/page";
 export default function Home() {
   return (
     <>
-      <Form />
-      <NFinalizados />
+      <div className="row">
+        <Form />
+        <NFinalizados />
+      </div>
     </>
   );
 }
