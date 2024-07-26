@@ -23,6 +23,7 @@ export default function inputtext(props: any) {
           <option value="CANCELA COMUNICADO DE VENDA" />
           <option value="COMPRA COM TROCA" />
           <option value="COMUNICADO DE VENDA" />
+          <option value="LIBERAÇÃO DE BLOQUEIO" />
           <option value="REGISTRO DE OUTRO ESTADO" />
           <option value="VISTORIA" />
         </datalist>
